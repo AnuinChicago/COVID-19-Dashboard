@@ -2,7 +2,7 @@
 
 In this project we built a web dashboard which shows the COVID-19 cases and testing centers for Chicago,IL.
 
-##Data Collection
+## Data Collection
 The data was collected from:
 Covid Data-
 https://data.cityofchicago.org/browse?limitTo=datasets&sortBy=alpha&tags=covid-19
@@ -12,16 +12,16 @@ https://data.cityofchicago.org/Health-Human-Services/COVID-19-Testing-Sites/thdn
 
 Census Data Api- https://github.com/datamade/census
 
-##Data Cleaning
+## Data Cleaning
 Cleaned the census data to get only Chicago zipcodes. Loaded the Covid data as well. 
 
-##DataBase and Backend server
+## DataBase and Backend server
 We used SQL database in Postgres to store the data and created a flask server to load the data into Python.
 
-##Front end visualization
+## Front end visualization
 We used html, D3, Javascript, Plotly and Leaflet to build our final visualization dashboard.
 
-##The visualization dashboard includes:
+## The visualization dashboard includes:
 A dropdown menu to select the Chicago Zipcode. This modifies the plots for:
 1. Line Chart: Postive Tested Rate And Death Rate
 2. Bar Chart: COVID-19 Progression in Chicago
