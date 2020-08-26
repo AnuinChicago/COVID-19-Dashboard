@@ -1,25 +1,32 @@
 # Data Visualization Project- COVID-19-Dashboard for Chicago
-##Project Description
-For this  project, your task will be to "tell a story" through data visualizations.
 
-Unlike the first project, where you focused on using the "Analytics Paradigm" to explore relationships in "report form", this project should be more focused on providing users an interactive means to explore data themselves.
+In this project we built a web dashboard which shows the COVID-19 cases and testing centers for Chicago,IL.
 
-Just as with the first project, you will be asked to conduct a 15 minute presentation and 5 minute questions that lays out your theme, coding approach, and final dashboard.
+##Data Collection
+The data was collected from:
+Covid Data-
+https://data.cityofchicago.org/browse?limitTo=datasets&sortBy=alpha&tags=covid-19
 
-You may choose a project of any theme, but we encourage you to think broadly. The universe is wide and expansive. Don't limit yourself to what you know.
+Testing Sites-
+https://data.cityofchicago.org/Health-Human-Services/COVID-19-Testing-Sites/thdn-3grx
 
-You will have roughly two weeks to complete this project. You will present your final work on Saturday (Aug 25, 2018). You will have ample time in class to work with your group (but expect to put in some long nights in the days ahead).
+Census Data Api- https://github.com/datamade/census
 
-##Project Requirements
-Your visualization must include a Python Flask powered RESTful API, HTML/CSS, JavaScript and at least one database (MySQL, MongoDB, SQLite, etc.)
+##Data Cleaning
+Cleaned the census data to get only Chicago zipcodes. Loaded the Covid data as well. 
 
-You will make a dashboard using some combination of D3, Leaflet and Plotly, which shows multiple visualizations of related data.
+##DataBase and Backend server
+We used SQL database in Postgres to store the data and created a flask server to load the data into Python.
 
-Your project may include JS libraries that we did not cover.
+##Front end visualization
+We used html, D3, Javascript, Plotly and Leaflet to build our final visualization dashboard.
 
-Your project must be powered by a dataset with at least 100 records of raw data.
-
-Your project must include some level of user-driven interaction (e.g. menus, dropdowns, textboxes, etc.)
-
-Your final dashboard should ideally include at least three views
+##The visualization dashboard includes:
+A dropdown menu to select the Chicago Zipcode. This modifies the plots for:
+1. Line Chart: Postive Tested Rate And Death Rate
+2. Bar Chart: COVID-19 Progression in Chicago
+3. Doughnut Chart: Race Distribution by Zipcode
+4. Table: Demographics per zipcode
+5. Chicago Map: Testing sites
+6. Chicago Map: Positive Cases concentration
 
