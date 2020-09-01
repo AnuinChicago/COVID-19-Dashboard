@@ -1,6 +1,7 @@
 # Data Visualization Project- COVID-19-Dashboard for Chicago
 
 In this project we built a web dashboard which shows the COVID-19 cases and testing centers for Chicago,IL.
+![chicago](49692206858_7bbcb325ef_k.jpg)
 
 ## Data Collection
 The data was collected from:
