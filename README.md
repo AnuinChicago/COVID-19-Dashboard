@@ -5,7 +5,6 @@ In this project we built a web dashboard which shows the COVID-19 cases and test
 ![chicago](49692206858_7bbcb325ef_k.jpg)
 
 ## Data Collection
-The data was collected from.
 Covid Data-
 https://data.cityofchicago.org/browse?limitTo=datasets&sortBy=alpha&tags=covid-19
 
