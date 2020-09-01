@@ -14,7 +14,8 @@ https://data.cityofchicago.org/Health-Human-Services/COVID-19-Testing-Sites/thdn
 Census Data Api- https://github.com/datamade/census
 
 ## Data Cleaning
-Cleaned the census data to get only Chicago zipcodes. Loaded the Covid data as well. 
+Cleaned the Census data to get only Chicago zipcodes. Loaded the Covid data as well. Merged both to get a final dataframe.
+![df](df_proj2.png)
 
 ## DataBase and Backend server
 We used SQL database in Postgres to store the data and created a flask server to load the data into Python.
