@@ -28,8 +28,11 @@ We used html, D3, Javascript, Plotly and Leaflet to build our final visualizatio
 A dropdown menu to select the Chicago Zipcode. This modifies the plots for:
 1. Line Chart: Postive Tested Rate And Death Rate
 2. Bar Chart: COVID-19 Progression in Chicago
+![db1](dashboard1.png)
 3. Doughnut Chart: Race Distribution by Zipcode
+![db2](dashboard2.png)
 4. Table: Demographics per zipcode
 5. Chicago Map: Testing sites
 6. Chicago Map: Positive Cases concentration
+![db4](dashboard4.png)
 
