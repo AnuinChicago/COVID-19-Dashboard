@@ -19,7 +19,7 @@ Cleaned the Census data to get only Chicago zipcodes. Loaded the Covid data as w
 
 ## DataBase and Backend server
 We used SQL database in Postgres to store the data and created a flask server to load the data into Python.
-![db](image (6).png)
+![db](image.png)
 
 ## Front end visualization
 We used html, D3, Javascript, Plotly and Leaflet to build our final visualization dashboard.
